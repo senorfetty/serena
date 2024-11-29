@@ -10860,11 +10860,12 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-image: url('/assets/img/serena5.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+
 }
 header.masthead .masthead-content {
   z-index: 1;
@@ -10876,7 +10877,7 @@ header.masthead .masthead-content .masthead-heading {
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
-header.masthead .bg-circle {
+/* header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
@@ -10905,7 +10906,7 @@ header.masthead .bg-circle-4 {
   width: 30rem;
   top: -5rem;
   right: 35%;
-}
+} */
 
 @media (min-width: 992px) {
   header.masthead {
