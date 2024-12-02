@@ -10856,6 +10856,7 @@ html {
 }
 
 header.masthead {
+
   position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
