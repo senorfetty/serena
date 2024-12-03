@@ -10855,70 +10855,44 @@ html {
   letter-spacing: 0.1rem;
 }
 
-header.masthead {
 
-  position: relative;
-  overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background-image: url('../assets/img/serena4.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
-
+.carousel-item {
+  height: 100vh; 
+}
+.carousel-item .hero {
+  height: 100%; 
+  background-size: cover; 
+  background-position: center top; 
+  background-repeat: no-repeat; 
 }
 
-header.masthead .masthead-content {
-  z-index: 1;
-  position: relative;
+.col-lg-6.mx-auto.d-flex.flex-column{
+  color: black;
+  font-size: 6rem;
+  background-color: #fff3cd6d;
 }
-header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+
+.masthead-heading,
+.masthead-subheading {
+    display: inline-block;
+    margin: 0; /* Remove extra space */
+    line-height: 1; /* Align baseline */
+    font-size: 2.5rem; /* Adjust font size for consistency */
+    vertical-align: middle; /* Align to the same baseline */
 }
-header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+
+.masthead-heading {
+    font-weight: 700; /* Bold for emphasis */
+    margin-right: 10px; /* Add spacing between headings */
 }
-/* header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+
+.masthead-subheading {
+    font-weight: 400; /* Lighter weight for contrast */
 }
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
-} */
 
 @media (min-width: 992px) {
-  header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
-  }
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
-  }
+    .masthead-heading,
+    .masthead-subheading {
+        font-size: 3rem; /* Increase size for large screens */
+    }
 }
