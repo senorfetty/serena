@@ -17,6 +17,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
          <!-- Bootstrap CSS -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
 
         <!-- Bootstrap Bundle JS (includes Popper.js) -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
@@ -206,11 +208,136 @@
             </div>
         </section>
 
+        <section id="images" class="bg-dark py-5">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="display-3 text-light">Gallery</h2>
+                </div>
+
+                <ul class="nav nav-tabs row g2 d-flex" role='tablist'>
+                    <li class="nav-item col-4" role="presentation">
+                        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#images-tab-1" aria-selected="true" role="tab">
+                            <h4 class="display-4">Kids Corner</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-4" role="presentation">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#images-tab-2" aria-selected="false" tabindex="-1" role="tab">
+                            <h4 class="display-4">Bomani</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-4" role="presentation">
+                        <a class="nav-link " data-bs-toggle="tab" data-bs-target="#images-tab-3" aria-selected="false" tabindex="-1" role="tab">
+                           <h4 class="display-4">Baptism</h4>  
+                        </a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+
+                <div class="tab-content">
+
+                    <div class="tab-pane fade active show" role="tabpanel" id="images-tab-1">
+                        <div class="row">
+                            <div class="col order-2 order-lg-1 text-center">
+                                <div class="image-slider swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena1.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena2.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena4.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena7.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena8.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena10.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena43.jpg" alt="" class="image-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="images-tab-2" role="tabpanel">
+                        <div class="row">
+                            <div class="col order-2 order-lg-1 text-center">
+                                <div class="image-slider swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena28.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena29.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena32.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena35.jpg" alt="" class="image-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="images-tab-3" role="tabpanel">
+                        <div class="row">
+                            <div class="col order-2 order-lg-1 text-center">
+                                <div class="image-slider swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena12.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena14.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena15.jpg" alt="" class="image-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/serena22.jpg" alt="" class="image-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                
+            </div>
+        </section>
+
+        <section id="mission" class="bg-gray py-3">
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="text-center">Our Mission</h2>
+                        <h3 class="text-center">To develop in reach programs which meet the spiritual needs of our members and harnessing the spiritual gifts of the church membership in outreach</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
                 <!-- Contact Section -->
         <section id="contact" class="bg-light py-5">
             <div class="container px-5">
                 <div class="text-center mb-4">
-                    <h2 class="display-4">Get in Touch</h2>
+                    <h2 class="display-4  ">Get in Touch</h2>
                     <p>We would love to hear from you. Feel free to reach out to us!</p>
                 </div>
                 <div class="row gx-5 align-items-center">
@@ -257,17 +384,18 @@
         </footer>
 
         <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="js/scripts.js"></script>
 
         <script>
-                const l = document.getElementById('currentYear');
-
-                l.textContent = new Date().getFullYear();
-                
-            
+            const l = document.getElementById('currentYear');
+            l.textContent = new Date().getFullYear();            
         </script>
+
+        
 
     </body>
 </html>
